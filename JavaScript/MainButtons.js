@@ -6,7 +6,8 @@ const sepiaMode = document.querySelector('#sepiaMode')
 const colorVeilOn = document.querySelector('#colorVeilOn')
 const colorVeilOff = document.querySelector('#colorVeilOff')
 
-checkMode();
+let localStorage = window.localStorage;
+// checkMode();
 
 // Font Change Buttons
 
@@ -110,7 +111,8 @@ function darkModeChange() {
   /* document.querySelectorAll('#nav li a:hover').forEach((e) => {
     e.style.backgroundColor = '#383737'
   }); */
-  setMode(darkMode, 10000);
+  localStorage.setItem('mode', 'darkMode');
+  localStorage.getItem('darkMode');
 }
 
 
