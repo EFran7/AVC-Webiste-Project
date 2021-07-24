@@ -1,0 +1,117 @@
+<DOCTYPE <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>What is Autism | Autistic Voices Collective</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <div id="topbar">
+        <a href="index.html"><h4>Autistic Voices Collective</h4></a>
+        <a href="./ContactUs.html"><h4>Contact Us</h4></a>
+        <a href="./Accessibility.html"><h4>Accessibility Options</h4></a>
+        <a href='./CreateAccount.html'><h4>Create an Account</h4></a>
+        <a href='./SignIn.html'><h4>Sign In</h4></a>
+      </div>
+      <div id-"welc-wrap"
+        <div id="Logo">
+          <a href='index.html'><img src="./Media/MainLogo.jpg" alt="AVC Logo"/></a>
+        </div>
+        <h1 id='title'>Autistic Voices Collective</h1>
+        <h2 id='subtitle'>Elevating the Autistic Perspective<h2>
+      </div>
+    </header>
+    <nav id='nav'>
+      <ul>
+        <li><a href='./WhatisAutism.html'>What is Autism</a></li>
+        <li><a href='./WhatisNeurodiversity.html'>What is Neurodiversity</a></li>
+        <li><a href='./Resources.html'>Resources</a></li>
+        <li><a href='./AboutMe.html'>Who We Are</a></li>
+        <li><a href='./Donate.html'>Donate</a></li>
+        <li><a href='./ADP.html'>Accessible Diagnosis Project</a></li>
+      </ul>
+    </nav>
+    <div id='resContainer'>
+      <h2 class="secheader" id='resourceHeader'>Resources</h2>
+      <button type="button" class="resCollapsible">General autism information</button>
+        <div class="expContent">
+          <ul>
+            <li><a href="Resources/NDGlossary.html">Glossary of General Neurodivergent and Autism Terminology</a></li>
+            <li><a href="#">General History of Autism</a></li>
+            <li><a href="#">What is the autism "Spectrum?"</a></li>
+          </ul>
+        </div>
+      <button type="button" class="resCollapsible">Considering if you are autistic?</button>
+        <div class="expContent">
+          <ul>
+            <li><a href="#">General Questions to Ask Yourself</a></li>
+            <li><a href="#">Guide for Children</a></li>
+            <li><a href="#">Guide for Teens</a></li>
+            <li><a href="#">Guide for Adults</a></li>
+          </ul>
+        </div>
+      <button type="button" class="resCollapsible">Just diagnosed, now what?</button>
+        <div class="expContent">
+          <ul>
+            <li><a href="#">How to Begin Unmasking</a></li>
+            <li><a href="#">List of Online Communities</a></li>
+            <li><a href="#">Telling Family/Friends that You're Autistic</a></li>
+            <li><a href="#">Advice from Autistic Students</a></li>
+            <li><a href="#">Advice from Autistic Adults</a></li>
+          </ul>
+        </div>
+      <button type="button" class="resCollapsible">Products and services</button>
+        <div class="expContent">
+          <ul>
+            <li><a href="#">Products for Sensory Difficulties</a></li>
+            <li><a href="#">Stimming Products</a></li>
+            <li><a href="Resources/Helplines.html">List of Helplines</a></li>
+          </ul>
+        </div>
+      <button type="button" class="resCollapsible">Autism/neurodiversity discussions</button>
+        <div class="expContent">
+          <ul>
+            <li><a href="#">Debate on ABA Programs</a></li>
+            <li><a href="#">Why Language Matters</a></li>
+            <li><a href="#">Autism in K-12 Schools</a></li>
+            <li><a href="#">Autism in the Workplace</a></li>
+          </ul>
+        </div>
+      <button type="button" class="resCollapsible">Legal documents regarding autism/disabilities</button>
+        <div class="expContent">
+          <ul>
+            <li><a href="#">Americans with Disabilities Act (ADA)</a></li>
+            <li><a href="#">Equal Employment Opportunity Commission (EEOC)</a></li>
+            <li><a href="#">The Genetic Information Nondiscrimination Act of 2008 (GINA)</a></li>
+            <li><a href="#">Sections 501 and 505 of the Rehabilitation Act of 1973</a></li>
+          </ul>
+        </div>
+    </div>
+    <script>
+      var coll = document.getElementsByClassName("resCollapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+    </script>
+    <footer id="footer">
+      <a href="https://www.facebook.com/AutisticVoicesCollective" class="fa fa-facebook"
+      target='_blank'></a>
+      <a href="https://twitter.com/AVCNonprofit" class="fa fa-twitter"
+      target='_blank'></a>
+      <a href="https://www.instagram.com/autisticvoicescollective/" class="fa fa-instagram"
+      target='_blank'></a>
+    </footer>
+  </body>
+</html>

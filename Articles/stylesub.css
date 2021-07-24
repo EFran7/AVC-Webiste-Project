@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+#title {
+  font-size: 60px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#subtitle {
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, a, p {
+  color: #b55151;
+  text-align: center;
+  font-family: 'Darker Grotesque';
+  font-weight: 600;
+}
+
+img {
+  height: 186.5px;
+  width: 250px;
+  margin-top: 50px;
+}
+
+#logo {
+  text-align: center;
+}
+
+#nav {
+  text-align: center;
+  z-index: 2;
+}
+
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #736f6e;
+  background-size: contain;
+}
+
+#nav li {
+  display: inline-block;
+}
+
+#nav li a:hover {
+  background-color: #918d8c;
+}
+
+#nav li a:link {
+  font-weight: normal;
+}
+
+#nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 26px;
+  text-decoration: none;
+  font-family: 'Darker Grotesque';
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#topbar {
+  background-color: #bfbbba;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+#topbar a {
+  display: inline-block;
+  text-align: center;
+  background-color: #bfbbba;
+  padding: 10px 85px;
+  font-family: 'Darker Grotesque';
+  color: white;
+  margin: 0px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 400;
+  z-index: 1;
+}
+
+#topbar a:hover {
+  background-color: #d4d0cf;
+}
+
+#topbar h4 {
+  font-family: 'Darker Grotesque';
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.secheader {
+  text-align: left;
+  color: #736f6e;
+  font-size: 26px;
+  font-family: 'Space Grotesk';
+}
+
+.secpar {
+  text align: left;
+  font-family: 'Space Grotesk';
+  font-size: 20px;
+  color: #736d6d;
+}
+
+#contactheader {
+  margin-top: 20px;
+  font-size: 60px;
+  color: black;
+  margin-bottom: 0px;
+  margin-left: 40px;
+}
+
+#contactpar {
+  margin-top: 3px;
+  margin-left: 40px;
+}
+
+#contactpar a {
+  color: #b55151;
+}
+
+.contactlink {
+  font-size: 20px;
+}
+
+#footer {
+  height: 120px;
+  background-color: #adaaaa;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #CD5C5C;
+  color: white;
+}
+
+.fa-twitter {
+  background: #CD5C5C;
+  color: white;
+}
+
+.fa-instagram {
+  background: #CD5C5C;
+  color: white;
+}
+
+#footer a {
+  margin: 30px 30px;
+}
+
+#backbutton {
+  position: relative;
+  left: 60px;
+  top: 60px;
+  width: 140px;
+  vertical-align: middle;
+}
+
+#backbutton a {
+  font-family: 'Darker Grotesque';
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #595858;
+  border-bottom: 2px solid #595858;
+}
+
+#backbutton a:hover {
+  color: #787777
+  border-bottom: 2px solid #787777;
+}
+
+.AutDiscArticle {
+  position: relative;
+  width: 800px;
+  left: 400px;
+  margin-top: 25px;
+}
+
+.AutDiscArticle h2 {
+  font-size: 50px;
+  text-align: left;
+  color: #595858;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.AutDiscArticle h3 {
+  font-size: 30px;
+  text-align: left;
+  color: #595858;
+  font-weight: 800;
+  margin-bottom: 60px;
+}
+
+.AutDiscArticle h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #595858;
+  text-align: left;
+}
+
+.AutDiscArticle p {
+  font-size: 25px;
+  font-weight: 500;
+  color: #595858;
+  text-align: left;
+}
+
+.ResourcePage {
+  position: relative;
+  width: 800px;
+  left: 400px;
+  margin-top: 25px;
+}
+
+.ResourcePage h2 {
+  font-size: 50px;
+  text-align: left;
+  color: #595858;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
