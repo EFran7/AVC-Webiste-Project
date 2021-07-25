@@ -738,6 +738,26 @@ img {
   font-weight: 500;
 }
 
+#otherOrgs {
+  width: 1000;
+}
+
+#otherOrgs2 {
+  width: 400;
+}
+
+#otherOrgs1 {
+  width: 220;
+}
+
+#otherOrgs3 {
+  width: 165;
+}
+
+#otherOrgs4 br {
+  line-height: 100%;
+}
+
 #outdated {
   background-color: #f5b5b5;
 }
