@@ -28,8 +28,11 @@
   box-sizing: border-box;
 }
 
-html, body {
-  height: 100%;
+html,body {
+height: 100%;       
+margin: 0;
+padding: 0;
+border: 0;
 }
 
 ::selection {
@@ -61,8 +64,10 @@ img {
   margin-top: 50px;
 }
 
-#logo {
+#Logo {
   text-align: center;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
 }
 
 #nav {
@@ -83,7 +88,7 @@ img {
 }
 
 #nav li a:hover {
-  background-color: #918d8c;
+  opacity: 0.7;
 }
 
 #nav li a:link {
@@ -126,7 +131,7 @@ img {
 }
 
 #topbar a:hover {
-  background-color: #d4d0cf;
+  opacity: 0.7;
 }
 
 #topbar button {
@@ -277,7 +282,7 @@ img {
   margin-right: 40px;
   margin-left: 120px;
   position: absolute;
-  top: 80;
+  top: 80px;
 }
 
 .leftmenu ul {
@@ -713,7 +718,7 @@ img {
 .resTable {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80;
+  margin-top: 80px;
   margin-bottom: 50px;
   width: 900px;
   border-collapse: collapse;
@@ -739,19 +744,19 @@ img {
 }
 
 #otherOrgs {
-  width: 1000;
+  width: 1000px;
 }
 
 #otherOrgs2 {
-  width: 400;
+  width: 400px;
 }
 
 #otherOrgs1 {
-  width: 220;
+  width: 220px;
 }
 
 #otherOrgs3 {
-  width: 165;
+  width: 165px;
 }
 
 #otherOrgs4 br {
@@ -792,12 +797,12 @@ img {
 }
 
 #hotlines td {
-  line-height: 2;
+  line-height: 2px;
 }
 
 #styHeaders h2 {
   margin: 20;
-  font-size: 47;
+  font-size: 47px;
   font-weight: 700; 
   color: #7d3131;
 }
@@ -805,13 +810,13 @@ img {
 #styButtons {
   position: relative;
   text-align: center;
-  margin-bottom: 20;
+  margin-bottom: 20px;
 }
 
 #styButtons button {
-  padding: 10 30;
-  margin: 0 15;
-  font-size: 17;
+  padding: 10px 30px;
+  margin: 0px 15px;
+  font-size: 17px;
   font-family: 'Space Grotesk';
   background-color: #a3a3a3;
   border: 2px solid #969595;
