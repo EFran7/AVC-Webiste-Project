@@ -3,21 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 @font-face {
   font-family: "openDyslexic";
-  src: url("./ResourcesForSite/OpenDyslexic-Regular.woff") format('woff'),
+  src: url("ResourcesForSite/OpenDyslexic-Regular.woff") format('woff'),
 }
 @font-face {
   font-family: "openDyslexic";
-  src: url("./ResourcesForSite/OpenDyslexic-Bold.woff") format('woff');
+  src: url("ResourcesForSite/OpenDyslexic-Bold.woff") format('woff');
   font-weight: bold;
 }
 @font-face {
   font-family: "openDyslexic";
-  src: url("./ResourcesForSite/OpenDyslexic-Italic.woff") format('woff');
+  src: url("ResourcesForSite/OpenDyslexic-Italic.woff") format('woff');
   font-style: italic, oblique;
 }
 @font-face {
   font-family: "openDyslexic";
-  src: url("./ResourcesForSite/OpenDyslexic-BoldItalic.woff") format('woff');
+  src: url("ResourcesForSite/OpenDyslexic-BoldItalic.woff") format('woff');
   font-weight: bold;
   font-style: italic, oblique;
 }
@@ -66,8 +66,8 @@ img {
 
 #Logo {
   text-align: center;
-  margin-right: 0 auto;
-  margin-left: 0 auto;
+  margin-right: 0px auto;
+  margin-left: 0px auto;
 }
 
 #nav {
