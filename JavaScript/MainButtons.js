@@ -38,8 +38,10 @@ let localStorage = window.localStorage;
   switch(colVeil) {
     case 'colorVeilOn':
       colorVeilToggleOn();
+      break;
     default:
       colorVeilToggleOff();
+      break;
   }
 })()
 
@@ -79,7 +81,6 @@ colorVeilOff.onclick = function setColorVeilOff() {
   location.reload();
 }
 
-// imports
 
 
 
